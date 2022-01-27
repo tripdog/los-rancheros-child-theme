@@ -1,4 +1,4 @@
-# understrap-child
+# los-rancheros-kiwanis-child
 Basic Child Theme for Understrap Theme Framework: https://github.com/understrap/understrap
 
 ## How it works
@@ -11,14 +11,14 @@ Understrap Child Theme uses the Enqueue method to load and sort the CSS file the
 ## Installation
 1. Install the parent theme Understrap first: `https://github.com/understrap/understrap` or `https://wordpress.org/themes/understrap/`
    - IMPORTANT: If you download Understrap from GitHub make sure you rename the "understrap-master.zip" file to "understrap.zip" or you might have problems using this child theme!
-1. Upload the understrap-child folder to your wp-content/themes directory
+1. Upload the los-rancheros-kiwanis-child folder to your wp-content/themes directory
 1. Go into your WP admin backend 
 1. Go to "Appearance -> Themes"
 1. Activate the Understrap Child theme
 
 ## Editing
 Add your own CSS styles to `/src/sass/theme/_child_theme.scss`
-or import you own files into `/src/sass/theme/understrap-child.scss`
+or import you own files into `/src/sass/theme/los-rancheros-kiwanis-child.scss`
 
 To overwrite Bootstrap's or Understrap's base variables just add your own value to:
 `/src/sass/theme/_child_theme_variables.scss`
@@ -28,7 +28,7 @@ For example, the "$primary" variable is used by both Bootstrap and Understrap.
 Add your own color like: `$primary: #ff6600;` in `/src/sass/theme/_child_theme_variables.scss` to overwrite it. This change will automatically apply to all elements that use the $brand-primary variable.
 
 It will be outputted into:
-`/css/understrap-child.min.css` and `/css/understrap-child.css`
+`/css/los-rancheros-kiwanis-child.min.css` and `/css/los-rancheros-kiwanis-child.css`
 
 So you have one clean CSS file at the end and just one request.
 
@@ -84,4 +84,4 @@ npm run watch-bs
 
 This child theme uses Bootstrap 5 and requires Understrap Parent Theme 1.1 or greater for best functionality. It does not create JS or CSS files that work with Bootstrap 4 markup. In fact, in the `functions.php` file, this child theme overrides the parent theme's customizer settings.
 
-If you want to build a child theme with Bootstrap 4, please use [the 1.0.1 child theme release](https://github.com/understrap/understrap-child/releases/tag/v1.0.1) as it was the last version built to support Bootstrap 4.
+If you want to build a child theme with Bootstrap 4, please use [the 1.0.1 child theme release](https://github.com/understrap/los-rancheros-kiwanis-child/releases/tag/v1.0.1) as it was the last version built to support Bootstrap 4.
